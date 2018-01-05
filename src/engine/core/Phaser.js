@@ -7,7 +7,7 @@ import ground from '@/assets/platform.png';
 import star from '@/assets/star.png';
 import dude from '@/assets/dude.png';
 
-export const game = new Phaser.Game(800, 600, Phaser.AUTO, 'gameCanvas', { preload: preload, create: create, update: update });
+export const game = new Phaser.Game(800, 600, Phaser.AUTO, 'gameCanvas', { preload, create, update });
 
 function preload() {
     game.load.image('sky', sky);
